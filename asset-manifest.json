@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactclockwise/static/css/main.00cf9858.chunk.css",
+    "main.css": "/reactclockwise/static/css/main.6527a9cd.chunk.css",
     "main.js": "/reactclockwise/static/js/main.eb35d2da.chunk.js",
     "main.js.map": "/reactclockwise/static/js/main.eb35d2da.chunk.js.map",
     "runtime-main.js": "/reactclockwise/static/js/runtime-main.d753df52.js",
@@ -9,10 +9,10 @@
     "static/js/2.8a62a919.chunk.js": "/reactclockwise/static/js/2.8a62a919.chunk.js",
     "static/js/2.8a62a919.chunk.js.map": "/reactclockwise/static/js/2.8a62a919.chunk.js.map",
     "index.html": "/reactclockwise/index.html",
-    "precache-manifest.106be0308f1de30f7653c4ef5679667b.js": "/reactclockwise/precache-manifest.106be0308f1de30f7653c4ef5679667b.js",
+    "precache-manifest.2f0dad457f793adfe8871f7d84e19ccb.js": "/reactclockwise/precache-manifest.2f0dad457f793adfe8871f7d84e19ccb.js",
     "service-worker.js": "/reactclockwise/service-worker.js",
     "static/css/2.838c63a7.chunk.css.map": "/reactclockwise/static/css/2.838c63a7.chunk.css.map",
-    "static/css/main.00cf9858.chunk.css.map": "/reactclockwise/static/css/main.00cf9858.chunk.css.map",
+    "static/css/main.6527a9cd.chunk.css.map": "/reactclockwise/static/css/main.6527a9cd.chunk.css.map",
     "static/js/2.8a62a919.chunk.js.LICENSE.txt": "/reactclockwise/static/js/2.8a62a919.chunk.js.LICENSE.txt",
     "static/media/aluminumwelding.jpg": "/reactclockwise/static/media/aluminumwelding.9d777483.jpg",
     "static/media/assembly.jpg": "/reactclockwise/static/media/assembly.930bd46e.jpg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.d753df52.js",
     "static/css/2.838c63a7.chunk.css",
     "static/js/2.8a62a919.chunk.js",
-    "static/css/main.00cf9858.chunk.css",
+    "static/css/main.6527a9cd.chunk.css",
     "static/js/main.eb35d2da.chunk.js"
   ]
 }
