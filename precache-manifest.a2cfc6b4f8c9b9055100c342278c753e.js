@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adfe771885b0abdd0776911dc4b4961d",
+    "revision": "e645b9d486867803dc6efafd284522a8",
     "url": "/reactclockwise/index.html"
   },
   {
-    "revision": "1caca16e733f0ca3a40e",
+    "revision": "df859993f093d8026976",
     "url": "/reactclockwise/static/css/2.838c63a7.chunk.css"
   },
   {
-    "revision": "52136b922e2b4aefd7b5",
-    "url": "/reactclockwise/static/css/main.c104111f.chunk.css"
+    "revision": "de4a8cb8584c7924d478",
+    "url": "/reactclockwise/static/css/main.d1e32d15.chunk.css"
   },
   {
-    "revision": "1caca16e733f0ca3a40e",
-    "url": "/reactclockwise/static/js/2.8a62a919.chunk.js"
+    "revision": "df859993f093d8026976",
+    "url": "/reactclockwise/static/js/2.66307873.chunk.js"
   },
   {
     "revision": "56729d980da09961afe8d497a21eec12",
-    "url": "/reactclockwise/static/js/2.8a62a919.chunk.js.LICENSE.txt"
+    "url": "/reactclockwise/static/js/2.66307873.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52136b922e2b4aefd7b5",
-    "url": "/reactclockwise/static/js/main.7d8fb178.chunk.js"
+    "revision": "de4a8cb8584c7924d478",
+    "url": "/reactclockwise/static/js/main.6e5fefa5.chunk.js"
   },
   {
     "revision": "ce49088fa0c1de8cce4e",
@@ -86,9 +86,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9ab104c69bdc458dc8466e1ab5cea979",
     "url": "/reactclockwise/static/media/weldinghp.9ab104c6.jpg"
-  },
-  {
-    "revision": "8c758cfcf2005c7dc0320e7cca9a6ba2",
-    "url": "/reactclockwise/static/media/weldinghp2.8c758cfc.jpeg"
   }
 ]);
