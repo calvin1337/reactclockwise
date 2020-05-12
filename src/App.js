@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router >
       <Nav />
-      <Route Route path="/" exact component={Homepage} />
+      <Route Route path="/reactclockwise" exact component={Homepage} />
 
       <Route path="/about" render={AboutIntro} />
       </Router>

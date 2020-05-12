@@ -17,10 +17,10 @@ export class NavigationBar extends Component {
       };
 
     componentDidMount(){
-        if(this.props.location.pathname === "/"){
+        if(this.props.location.pathname === "/reactclockwise"){
             window.addEventListener('scroll', this.handleScroll);
         }
-        if(this.props.location.pathname !== "/"){
+        if(this.props.location.pathname !== "/reactclockwise"){
             window.removeEventListener('scroll', this.coloredNav);
             this.coloredNav()
         }
@@ -29,11 +29,11 @@ export class NavigationBar extends Component {
     
      
     componentDidUpdate(){
-        if(this.props.location.pathname !== "/"){
+        if(this.props.location.pathname !== "/reactclockwise"){
             window.removeEventListener('scroll', this.handleScroll);
             this.coloredNav()
         }
-        if(this.props.location.pathname === "/"){
+        if(this.props.location.pathname === "/reactclockwise"){
             var nav = document.getElementById('navstyle')
             nav.classList.remove("navColored")
             window.addEventListener('scroll', this.handleScroll)
