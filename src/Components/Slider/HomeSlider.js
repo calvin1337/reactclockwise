@@ -15,9 +15,7 @@ export class HomeSlider extends Component {
     this.changeHandler = this.changeHandler.bind(this)
   }
   
-  componentWillReceiveProps(){
-    console.log("hello")
-  }
+  
 
 
   changeHandler(e) {
@@ -38,19 +36,19 @@ export class HomeSlider extends Component {
             
             <Slider className="sliderContainer" ref={c => (this.slider = c)} {...settings}>
             
-        <div  key={0} >
-           <div className="overlay">
-          <img style={{height:"100vh", width:"100%"}} src={firstimage}  />
+        <div>
+           <div key={0} className="overlay" >
+          <img className="one" src={firstimage}  />
           </div>    
         </div>
-        <div   key={1} >
-        <div className="overlay">
-          <img style={{height:"100vh", width:"100%"}} src={secondimage}  />
+        <div>
+        <div key={1} className="overlay">
+          <img  className="one" src={secondimage}  />
           </div>
         </div>
-        <div   key={2} >
-        <div className="overlay">
-          <img style={{height:"100vh", width:"100%"}} src={thirdimage}  />
+        <div>
+        <div key={2} className="overlay">
+          <img className="one" src={thirdimage}  />
           </div>
         </div>
       </Slider>

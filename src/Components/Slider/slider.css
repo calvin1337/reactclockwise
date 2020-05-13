@@ -137,9 +137,9 @@
   }
 
 
-  .one{
+  .one:after{
 	
 	height:100vh;
 	width:100%;
-	
+	content: "";
 }
