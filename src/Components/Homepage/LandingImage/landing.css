@@ -5,6 +5,7 @@
     background-size: cover;
     position: relative;
     font-family: 'IBM Plex Mono', monospace;
+    box-shadow: 0 0 30px #333;
     }
     
     #hero:before {
@@ -42,3 +43,24 @@
         flex-direction: column;
         text-align: center;
         }
+
+
+.hero-container ul{
+	
+	list-style: none;
+	margin:10px;
+}
+
+.hero-container ul li {
+    margin: 0 0 24px;
+}
+
+.hero-container h1{
+    font-size:75px;
+    color:white;
+    margin:10px;
+}
+
+.hero-container h3{
+    margin:20px;
+}
