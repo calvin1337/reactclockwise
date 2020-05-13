@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/reactclockwise/static/css/main.31ea1f1e.chunk.css",
-    "main.js": "/reactclockwise/static/js/main.e18c47ce.chunk.js",
-    "main.js.map": "/reactclockwise/static/js/main.e18c47ce.chunk.js.map",
+    "main.css": "/reactclockwise/static/css/main.18409b2c.chunk.css",
+    "main.js": "/reactclockwise/static/js/main.205c78fd.chunk.js",
+    "main.js.map": "/reactclockwise/static/js/main.205c78fd.chunk.js.map",
     "runtime-main.js": "/reactclockwise/static/js/runtime-main.d753df52.js",
     "runtime-main.js.map": "/reactclockwise/static/js/runtime-main.d753df52.js.map",
     "static/css/2.838c63a7.chunk.css": "/reactclockwise/static/css/2.838c63a7.chunk.css",
-    "static/js/2.efda07de.chunk.js": "/reactclockwise/static/js/2.efda07de.chunk.js",
-    "static/js/2.efda07de.chunk.js.map": "/reactclockwise/static/js/2.efda07de.chunk.js.map",
+    "static/js/2.73fc4caa.chunk.js": "/reactclockwise/static/js/2.73fc4caa.chunk.js",
+    "static/js/2.73fc4caa.chunk.js.map": "/reactclockwise/static/js/2.73fc4caa.chunk.js.map",
     "index.html": "/reactclockwise/index.html",
-    "precache-manifest.dad590856e13a7cea4b5bdb1ca09b1fe.js": "/reactclockwise/precache-manifest.dad590856e13a7cea4b5bdb1ca09b1fe.js",
+    "precache-manifest.c1049fbdca3c0eb78e9987092e0dcf28.js": "/reactclockwise/precache-manifest.c1049fbdca3c0eb78e9987092e0dcf28.js",
     "service-worker.js": "/reactclockwise/service-worker.js",
     "static/css/2.838c63a7.chunk.css.map": "/reactclockwise/static/css/2.838c63a7.chunk.css.map",
-    "static/css/main.31ea1f1e.chunk.css.map": "/reactclockwise/static/css/main.31ea1f1e.chunk.css.map",
-    "static/js/2.efda07de.chunk.js.LICENSE.txt": "/reactclockwise/static/js/2.efda07de.chunk.js.LICENSE.txt",
+    "static/css/main.18409b2c.chunk.css.map": "/reactclockwise/static/css/main.18409b2c.chunk.css.map",
+    "static/js/2.73fc4caa.chunk.js.LICENSE.txt": "/reactclockwise/static/js/2.73fc4caa.chunk.js.LICENSE.txt",
     "static/media/aluminumwelding.jpg": "/reactclockwise/static/media/aluminumwelding.9d777483.jpg",
     "static/media/assembly.jpg": "/reactclockwise/static/media/assembly.930bd46e.jpg",
     "static/media/designandenginering.jpg": "/reactclockwise/static/media/designandenginering.318ad2b6.jpg",
@@ -26,13 +26,13 @@
     "static/media/oceaneering.png": "/reactclockwise/static/media/oceaneering.97aaffd4.png",
     "static/media/slick-theme.css": "/reactclockwise/static/media/slick.f97e3bbf.svg",
     "static/media/weldinghp.jpg": "/reactclockwise/static/media/weldinghp.9ab104c6.jpg",
-    "static/media/weldinghp2.jpeg": "/reactclockwise/static/media/weldinghp2.8c758cfc.jpeg"
+    "static/media/landing.css": "/reactclockwise/static/media/weldinghp2.8c758cfc.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.d753df52.js",
     "static/css/2.838c63a7.chunk.css",
-    "static/js/2.efda07de.chunk.js",
-    "static/css/main.31ea1f1e.chunk.css",
-    "static/js/main.e18c47ce.chunk.js"
+    "static/js/2.73fc4caa.chunk.js",
+    "static/css/main.18409b2c.chunk.css",
+    "static/js/main.205c78fd.chunk.js"
   ]
 }
