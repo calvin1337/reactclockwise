@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
-import styles from "./slider.module.css";
-import Slider from "react-slick";
+import firstimage from "../../images/HomepageLanding/weldinghp2.jpeg";
+import secondimage from "../../images/HomepageLanding/weldinghp.jpg";
+import thirdimage from "../../images/HomepageLanding/exoticwelding.jpg";
 import AnimatedArrow from "../Homepage/AnimatedArrow/AnimatedArrow";
+import Slider from "react-slick";
+import "./slider.css";
+
 
 
 export class HomeSlider extends Component {
@@ -11,6 +15,9 @@ export class HomeSlider extends Component {
     this.changeHandler = this.changeHandler.bind(this)
   }
   
+  componentWillReceiveProps(){
+    console.log("hello")
+  }
 
 
   changeHandler(e) {
@@ -27,24 +34,32 @@ export class HomeSlider extends Component {
           };
 
         return (
-          <div className={styles.darkOverlay}>
-            <Slider className={styles.sliderContainer} ref={c => (this.slider = c)} {...settings}>
+          <div className="darkOverlay">
             
-        <div className={[styles.slide, styles.one].join(" ")} key={0} >
-          
+            <Slider className="sliderContainer" ref={c => (this.slider = c)} {...settings}>
+            
+        <div  key={0} >
+           <div className="overlay">
+          <img style={{height:"100vh", width:"100%"}} src={firstimage}  />
+          </div>    
         </div>
-        <div  className={[styles.slide, styles.two].join(" ")} key={1} >
-          
+        <div   key={1} >
+        <div className="overlay">
+          <img style={{height:"100vh", width:"100%"}} src={secondimage}  />
+          </div>
         </div>
-        <div  className={[styles.slide, styles.three].join(" ")} key={2} >
-         
+        <div   key={2} >
+        <div className="overlay">
+          <img style={{height:"100vh", width:"100%"}} src={thirdimage}  />
+          </div>
         </div>
       </Slider>
-
-      <div className={styles.titleContainer}>
-      <h1 className={styles.welcomeText}>Welcome To Clockwise
+      
+      <div className="titleContainer">
+      <h1 className="welcomeText">Welcome To Clockwise
       
       </h1>
+      <h3 style={{color:"white"}}>We make the impossible possible </h3>
       
       <ul>
       <AnimatedArrow text="Our Services"/>
@@ -57,10 +72,10 @@ export class HomeSlider extends Component {
       
       </div>
       
-      <div  className={styles.controlsContainer}>
-      <div  onClick={() => this.changeHandler(0)} className={styles.control}></div>
-      <div  onClick={() => this.changeHandler(1)} className={styles.control}></div>
-      <div  onClick={() => this.changeHandler(2)} className={styles.control}></div>
+      <div  className="controlsContainer">
+      <div  onClick={() => this.changeHandler(0)} className="control"></div>
+      <div  onClick={() => this.changeHandler(1)} className="control"></div>
+      <div  onClick={() => this.changeHandler(2)} className="control"></div>
     </div>
     
     </div>
@@ -69,5 +84,7 @@ export class HomeSlider extends Component {
         )
     }
 }
+
+
 
 export default HomeSlider

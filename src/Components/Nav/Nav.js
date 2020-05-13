@@ -17,10 +17,10 @@ export class NavigationBar extends Component {
       };
 
     componentDidMount(){
-        if(this.props.location.pathname === "/reactclockwise"){
+        if(this.props.location.pathname === "/reactclockwise/"){
             window.addEventListener('scroll', this.handleScroll);
         }
-        if(this.props.location.pathname !== "/reactclockwise"){
+        if(this.props.location.pathname !== "/reactclockwise/"){
             window.removeEventListener('scroll', this.coloredNav);
             this.coloredNav()
         }
@@ -29,11 +29,11 @@ export class NavigationBar extends Component {
     
      
     componentDidUpdate(){
-        if(this.props.location.pathname !== "/reactclockwise"){
+        if(this.props.location.pathname !== "/reactclockwise/"){
             window.removeEventListener('scroll', this.handleScroll);
             this.coloredNav()
         }
-        if(this.props.location.pathname === "/reactclockwise"){
+        if(this.props.location.pathname === "/reactclockwise/"){
             var nav = document.getElementById('navstyle')
             nav.classList.remove("navColored")
             window.addEventListener('scroll', this.handleScroll)
@@ -66,22 +66,22 @@ export class NavigationBar extends Component {
         <Navbar.Brand><img height="100" alt="Company Logo" src={logo}></img></Navbar.Brand>
         <Nav className="ml-auto">
 
-        <LinkContainer exact to="/">
+        <LinkContainer exact to="/reactclockwise/">
             <Nav.Link >Home</Nav.Link>
         </LinkContainer>
-        <LinkContainer to="/about">
+        <LinkContainer to="/reactclockwise/about">
             <Nav.Link >About</Nav.Link>
         </LinkContainer>
-        <LinkContainer to="/services">
+        <LinkContainer to="/reactclockwise/services">
             <Nav.Link>Services</Nav.Link>
         </LinkContainer>
-        <LinkContainer to="/projects">
+        <LinkContainer to="/reactclockwise/projects">
             <Nav.Link >Projects</Nav.Link>
         </LinkContainer>
-        <LinkContainer to="/news">
+        <LinkContainer to="/reactclockwise/news">
             <Nav.Link  >News</Nav.Link>
         </LinkContainer>
-        <LinkContainer to="/contact">
+        <LinkContainer to="/reactclockwise/contact">
             <Nav.Link >Contact</Nav.Link>
         </LinkContainer>
         </Nav>
