@@ -10,6 +10,7 @@ import AboutIntro from "./Components/Homepage/AboutIntro";
 import Nav from "./Components/Nav/Nav"
 import Footer from "./Components/Footer/Footer";
 import ServicesContainer from "./Containers/Services/Services";
+import About from './Containers/About/About';
 
 
 
@@ -29,7 +30,12 @@ export class App extends Component {
         
       )} />
 
-      <Route path="/reactclockwise/about" render={AboutIntro} />
+      <Route path="/reactclockwise/about" render={props => (
+        
+        <About />
+        
+      
+    )} />
       <Route path="/reactclockwise/services" render={props => (
         <div>
           <ServicesContainer />

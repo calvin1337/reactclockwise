@@ -14,13 +14,13 @@ function AboutIntro() {
                     </div>
                     <div className="aboutInfo">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                        Clockwise Technologies has grown to become a reliable ally in delivering critical, engineering projects to its valuable list of customers. With the ability to provide “all engineering” services in-house our company has the ability and track record of making the impossible possible and sometimes on unbelievably short timescales. 
                         </p>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis quod fugit eius. Placeat, nobis error culpa consequatur voluptatum earum voluptatem!
+                        Privately owned and crewed with people of exceptional talent, the company has taken a pragmatic and steady approach to developing services and the operating systems that take care of our customers, with an ongoing effort to develop our people, premises, equipment. 
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, delectus molestiae atque architecto ad explicabo quasi est! Eligendi numquam repellat error? Repellat ullam, nesciunt porro at sunt ut eius quod.
+                             We pride ourselves on our can-do attitude to any request and the relationships that we maintain with our customers above all
                         </p>
                     </div>
                         <button type="button" class="btn btn-outline-secondary">Find out more</button>
