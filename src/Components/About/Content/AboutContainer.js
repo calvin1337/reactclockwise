@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Col, Row, Container} from "react-bootstrap"
 import "./aboutContent.css"
 import AboutText from '../AboutText';
+import Counter from '../Counter/Counter';
 
 export default class AboutContainer extends Component {
     render() {
@@ -36,6 +37,7 @@ export default class AboutContainer extends Component {
                     </Row>
                 </Container>
                 <AboutText  />
+                <Counter />
             </section>
         )
     }
