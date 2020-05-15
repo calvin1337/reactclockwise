@@ -21,7 +21,7 @@ export class Contact extends Component {
                     size="2x"
                     />
                     <h3>Address</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Unit 1A, Gourdieburn, Potterton, AB23 8UY</p>
                     </div>        
                 </Col>
                 <Col md="4">
@@ -32,7 +32,7 @@ export class Contact extends Component {
                     size="2x"
                      />
                     <h3>Phone Number</h3>
-                    <p>Lorem, ipsum.</p>
+                    <p>01234 567890</p>
                     </div>
                
                 </Col>
@@ -44,7 +44,7 @@ export class Contact extends Component {
                     size="2x"
                     />
                     <h3>Email</h3>
-                    <p>Lorem, ipsum.</p>
+                    <p>info@clockwise-tech.com</p>
                     </div>
                 
                 </Col>
