@@ -3,11 +3,12 @@ import {Col, Row, Container} from "react-bootstrap"
 import "./aboutContent.css"
 import AboutText from '../AboutText';
 import Counter from '../Counter/Counter';
+import AboutContentEnd from './AboutContentEnd';
 
 export default class AboutContainer extends Component {
     render() {
         return (
-            <section style={{paddingTop: "50px", paddingBottom:"50px"}}>
+            <section style={{paddingTop: "50px"}}>
                 <Container style={{paddingTop: "50px", paddingBottom:"50px"}}>
                     <Row>
                       <Col md="6">
