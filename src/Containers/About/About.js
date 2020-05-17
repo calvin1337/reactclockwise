@@ -3,6 +3,7 @@ import Header from '../../Components/Header/Header'
 
 import Selector from '../../Components/About/Selector/Selector'
 import AboutContainer from '../../Components/About/Content/AboutContainer'
+import Facilites from './Facilites'
 
 export class About extends Component {
     state = {
@@ -20,7 +21,7 @@ export class About extends Component {
         }
 
         if(this.state.activepage === "facilities"){
-            currentPage = <h1 style={{color:"black"}}>Facilities</h1>
+            currentPage = <Facilites />
         }
 
         return (
