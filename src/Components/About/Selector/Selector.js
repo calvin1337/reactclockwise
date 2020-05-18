@@ -9,17 +9,21 @@ export class Selector extends Component {
         let facilitiesBtn = ""
         if(this.props.activepage === "about"){
             aboutBtn = {
-                color: "#111 "
+                color: "#fff" ,
+                background: "#686A6E"
             }
             facilitiesBtn = {
-                color: "#666666"
+                color: "#fff",
+                background: "#212529"
             }
         } else {
             aboutBtn = {
-                color: "#666666"
+                color: "#fff",
+                background: "#212529"
             }
              facilitiesBtn = {
-                color: "#111"
+                color: "#fff",
+                background: "#686A6E"
             }
     
         }
@@ -36,9 +40,7 @@ export class Selector extends Component {
                     <li class="pageItem">
                       <button style={aboutBtn} onClick={() => this.props.currentpage("about")} href="/">About us</button>
                     </li>
-                    <li>
-                        //
-                    </li>
+                    
 
                  <li class="pageItem">
                 <button style={facilitiesBtn} onClick={() => this.props.currentpage("facilities")} href="/">Facilites</button>

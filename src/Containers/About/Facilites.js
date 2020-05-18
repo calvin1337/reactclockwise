@@ -6,7 +6,7 @@ import ClockwiseMap from '../../Components/Facilites/ClockwiseMap';
 export class Facilites extends Component {
     render() {
         return (
-            <div style={{paddingTop: "50px"}}>
+            <div style={{paddingTop: "50px", paddingBottom:"50px"}}>
                 <Container style={{paddingTop: "50px"}}>
                 <div className="sectionTitle">
                              <span>About us</span>
@@ -29,12 +29,12 @@ export class Facilites extends Component {
                     <Row>
                     <Col md="6" style={{paddingRight:"0"}}>
                             <div className="FacilitesImg">
-                                <img src="https://media.istockphoto.com/photos/new-warehouse-building-picture-id685841598?k=6&m=685841598&s=612x612&w=0&h=51ZxejTizSIBwLB1w4eWVnmbJHKrUjyJUt1HtDmhQEU=" alt=""/>
+                                <img src="https://media.istockphoto.com/photos/new-warehouse-building-picture-id685841598?k=6&m=685841598&s=612x612&w=0&h=51ZxejTizSIBwLB1w4eWVnmbJHKrUjyJUt1HtDmhQEU=" alt="outside warehouse"/>
                             </div>
                         </Col>
                         <Col md="6" style={{paddingRight:"0"}}>
                             <div className="FacilitesImg">
-                                <img src="https://lh3.googleusercontent.com/proxy/O6WPTV8ISfHW9WqS5U18_ADPOejea1XKOQUz1BUivcd7Dyn71k-yrk6qjRNKMwWI8o2fnC5VGwEwKuaS50Y8fvNlS6KPW1TRHyXruxu8M_gi6LCaTTI0UGqCUbyV18c-yE0YqbF3TeGHtjjw-1wRMusFcRI_nrLFJlQc7YL8el-H" alt=""/>
+                                <img src="https://cdn.thefabricator.com/a/the-secret-to-success-in-metal-fabrication-keep-it-simple-1493320400.jpg" alt="inside warehouse"/>
                             </div>
                         </Col>  
                     </Row>

@@ -27,7 +27,7 @@ function SampleNextArrow(props) {
   >
       <FontAwesomeIcon
           icon={faAngleDoubleRight}
-          color="#222"
+          color="#cacfd2"
           size="2x"
       />
   </div>
@@ -43,7 +43,7 @@ function SampleNextArrow(props) {
   >
       <FontAwesomeIcon
           icon={faAngleDoubleLeft}
-          color="#222"
+          color="#cacfd2"
           size="2x"
       />
   </div>
