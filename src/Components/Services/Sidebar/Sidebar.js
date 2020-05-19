@@ -7,16 +7,16 @@ export class Sidebar extends Component {
             <div className="serviceSideBar">
                  <div  className="serviceList">
                     <ul>
-                        <li class="current"><a href="/">All Services</a></li>
-                        <li><a href="/">Design & Engineering</a></li>
-                        <li><a href="/">Fabrication</a></li>
-                        <li><a href="/">Aluminium Welding</a></li>
-                        <li><a href="/">Stainless Steels & Exotic Material Welding</a></li>
-                        <li><a href="/">Machining</a></li>
-                        <li><a href="/">Water-jet Cutting & Profiling</a></li>
-                        <li><a href="/">Hydraulics & Piping</a></li>
-                        <li><a href="/">Rental Services</a></li>
-                        <li><a href="/">Assembly & Testing</a></li>
+                        <li class="current"><button onClick={() => this.props.currentpage()}>All Services</button></li>
+                        <li><button onClick={() => this.props.currentpage("designAndEngineering")}>Design & Engineering</button></li>
+                        <li><button onClick={() => this.props.currentpage("fabrication")}>Fabrication</button></li>
+                        <li><button onClick={() => this.props.currentpage("aluminumWelding")}>Aluminium Welding</button></li>
+                        <li><button onClick={() => this.props.currentpage("stainlessWelding")}>Stainless Steels & Exotic Material Welding</button></li>
+                        <li><button onClick={() => this.props.currentpage("machining")}>Machining</button></li>
+                        <li><button onClick={() => this.props.currentpage("waterjetCuttingAndProfiling")}>Water-jet Cutting & Profiling</button></li>
+                        <li><button onClick={() => this.props.currentpage("hydraulicsAndPiping")}>Hydraulics & Piping</button></li>
+                        <li><button onClick={() => this.props.currentpage("rental")}>Rental Services</button></li>
+                        <li><button onClick={() => this.props.currentpage("assemblyAndTesting")}>Assembly & Testing</button></li>
                     </ul>
                 </div>
                 <div className="ServiceLinks">

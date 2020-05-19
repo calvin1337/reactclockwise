@@ -12,7 +12,11 @@ export class Services extends Component {
     }
 
     pageSelector = (page) => {
-        this.setState({activepage: page})
+        this.setState({activepage: page},
+            () => {
+                console.log(this.state.activepage)
+        })
+        
     }
 
     

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .serviceList ul {
     font-family: barlow condensed,sans-serif;
@@ -11,7 +11,7 @@
 .serviceList li {
  border-bottom: 1px solid #f1f5f7;
 }
-.serviceList a {
+.serviceList button {
     font-family: barlow condensed,sans-serif;
     font-size: 16px;
     font-size: 1.06667rem;
@@ -24,13 +24,16 @@
     text-decoration:none;
 }
 
-.serviceList a:hover {
+.serviceList button{
+    outline:none;
+}
+.serviceList button:hover {
     color: #222;
     background:#f8f8f8;
 }
 
 
- .serviceList a:before {
+ .serviceList button:before {
     content: "";
     background: #222222;
     width: 4px;
@@ -50,16 +53,24 @@
     opacity: 1;
 }
 
- .serviceList a:hover:before,  .serviceList .current a:before {
+ .serviceList button:hover:before,  .serviceList .current button:before {
    color:white;
     opacity: 1;
 }
 
-.serviceList .current a {
+.serviceList .current button{
 color:#222;
 background:#f8f8f8;
   
 }
+
+.serviceList button{
+    border:none;
+      text-align:left;
+    }
+
+
+/* QHSE AND VACANCIES */
 
 .ServiceLinks{
 margin-top: 60px;
