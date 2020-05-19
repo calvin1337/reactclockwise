@@ -8,7 +8,7 @@ export class SingleService extends Component {
                 <img src={this.props.serviceImage} alt="service image"/>
                 <h4 className="ServiceTitleOne">{this.props.title}</h4>
                 <p>{this.props.info}</p>
-                <button type="button" className="btn btn-outline-secondary">Read more</button>
+                <button type="button" onClick={() => this.props.currentpage(this.props.page)} className="btn btn-outline-secondary">Read more</button>
             </div>
         )
     }

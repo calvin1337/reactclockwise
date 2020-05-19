@@ -6,6 +6,16 @@ import AllServices from '../../Components/Services/AllServices/AllServices'
 
 
 export class Services extends Component {
+    
+    state = {
+        activepage : "allservices"
+    }
+
+    pageSelector = (page) => {
+        this.setState({activepage: page})
+    }
+
+    
     render() {
         return (
             <React.Fragment>
@@ -14,10 +24,10 @@ export class Services extends Component {
                 <Container style={{paddingTop: "50px"}}>
                     <Row>
                         <Col md="3">
-                            <Sidebar />
+                            <Sidebar currentpage={(page) => this.pageSelector(page)}/>
                         </Col>
                         <Col md="9">
-                            <AllServices />
+                            <AllServices currentpage={(page) => this.pageSelector(page)} />
                         </Col>
                     </Row>
                 </Container>
