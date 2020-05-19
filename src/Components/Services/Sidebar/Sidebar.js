@@ -7,11 +7,11 @@ export class Sidebar extends Component {
             <div className="serviceSideBar">
                  <div  className="serviceList">
                     <ul>
-                        <li><a href="/">All Services</a></li>
+                        <li class="current"><a href="/">All Services</a></li>
                         <li><a href="/">Design & Engineering</a></li>
                         <li><a href="/">Fabrication</a></li>
                         <li><a href="/">Aluminium Welding</a></li>
-                        <li class="current"><a href="/">Stainless Steels & Exotic Material Welding</a></li>
+                        <li ><a href="/">Stainless Steels & Exotic Material Welding</a></li>
                         <li><a href="/">Machining</a></li>
                         <li><a href="/">Water-jet Cutting & Profiling</a></li>
                         <li><a href="/">Hydraulics & Piping</a></li>

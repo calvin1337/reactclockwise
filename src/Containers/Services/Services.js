@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Col, Row, Container} from "react-bootstrap"
 import Sidebar from '../../Components/Services/Sidebar/Sidebar'
 import Header from '../../Components/Header/Header'
+import AllServices from '../../Components/Services/AllServices/AllServices'
 
 
 export class Services extends Component {
@@ -16,7 +17,7 @@ export class Services extends Component {
                             <Sidebar />
                         </Col>
                         <Col md="9">
-
+                            <AllServices />
                         </Col>
                     </Row>
                 </Container>

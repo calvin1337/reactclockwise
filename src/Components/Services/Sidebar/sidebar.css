@@ -25,14 +25,14 @@
 }
 
 .serviceList a:hover {
-    color: #e1a436;
-    
+    color: #222;
+    background:#f8f8f8;
 }
 
 
  .serviceList a:before {
     content: "";
-    background: #e1a436;
+    background: #222222;
     width: 4px;
     height: 100%;
     position: absolute;
@@ -56,7 +56,8 @@
 }
 
 .serviceList .current a {
-color:#e1a436;
+color:#222;
+background:#f8f8f8;
   
 }
 
