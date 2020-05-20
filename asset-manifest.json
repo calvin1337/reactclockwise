@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/reactclockwise/static/css/main.56091dd8.chunk.css",
-    "main.js": "/reactclockwise/static/js/main.0e5fa76b.chunk.js",
-    "main.js.map": "/reactclockwise/static/js/main.0e5fa76b.chunk.js.map",
+    "main.js": "/reactclockwise/static/js/main.6f50525d.chunk.js",
+    "main.js.map": "/reactclockwise/static/js/main.6f50525d.chunk.js.map",
     "runtime-main.js": "/reactclockwise/static/js/runtime-main.d753df52.js",
     "runtime-main.js.map": "/reactclockwise/static/js/runtime-main.d753df52.js.map",
     "static/css/2.838c63a7.chunk.css": "/reactclockwise/static/css/2.838c63a7.chunk.css",
-    "static/js/2.91d2cefc.chunk.js": "/reactclockwise/static/js/2.91d2cefc.chunk.js",
-    "static/js/2.91d2cefc.chunk.js.map": "/reactclockwise/static/js/2.91d2cefc.chunk.js.map",
+    "static/js/2.3834a27d.chunk.js": "/reactclockwise/static/js/2.3834a27d.chunk.js",
+    "static/js/2.3834a27d.chunk.js.map": "/reactclockwise/static/js/2.3834a27d.chunk.js.map",
     "index.html": "/reactclockwise/index.html",
-    "precache-manifest.ec8c01e3ce4187b83dfc96c591e912be.js": "/reactclockwise/precache-manifest.ec8c01e3ce4187b83dfc96c591e912be.js",
+    "precache-manifest.f59acc051c8a467b32eb28dbc75d1dca.js": "/reactclockwise/precache-manifest.f59acc051c8a467b32eb28dbc75d1dca.js",
     "service-worker.js": "/reactclockwise/service-worker.js",
     "static/css/2.838c63a7.chunk.css.map": "/reactclockwise/static/css/2.838c63a7.chunk.css.map",
     "static/css/main.56091dd8.chunk.css.map": "/reactclockwise/static/css/main.56091dd8.chunk.css.map",
-    "static/js/2.91d2cefc.chunk.js.LICENSE.txt": "/reactclockwise/static/js/2.91d2cefc.chunk.js.LICENSE.txt",
+    "static/js/2.3834a27d.chunk.js.LICENSE.txt": "/reactclockwise/static/js/2.3834a27d.chunk.js.LICENSE.txt",
     "static/media/aluminumwelding.jpg": "/reactclockwise/static/media/aluminumwelding.9d777483.jpg",
     "static/media/assembly.jpg": "/reactclockwise/static/media/assembly.930bd46e.jpg",
     "static/media/designandenginering.jpg": "/reactclockwise/static/media/designandenginering.318ad2b6.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.d753df52.js",
     "static/css/2.838c63a7.chunk.css",
-    "static/js/2.91d2cefc.chunk.js",
+    "static/js/2.3834a27d.chunk.js",
     "static/css/main.56091dd8.chunk.css",
-    "static/js/main.0e5fa76b.chunk.js"
+    "static/js/main.6f50525d.chunk.js"
   ]
 }
