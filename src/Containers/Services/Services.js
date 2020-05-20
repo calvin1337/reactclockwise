@@ -5,6 +5,9 @@ import Header from '../../Components/Header/Header'
 import AllServices from '../../Components/Services/AllServices/AllServices'
 import AlWelding from '../../Components/Services/IndividualServices/AlWelding'
 import Fabrication from '../../Components/Services/IndividualServices/Fabrication'
+import ExoticWelding from '../../Components/Services/IndividualServices/ExoticWelding'
+import Machining from '../../Components/Services/IndividualServices/Machining'
+import WaterJet from '../../Components/Services/IndividualServices/WaterJet'
 
 
 export class Services extends Component {
@@ -46,15 +49,15 @@ export class Services extends Component {
         }
 
         if(this.state.activepage === "stainlessWelding"){
-            currentPage = <h3>Stainless Steels & Exotic Material Welding</h3>
+            currentPage = <ExoticWelding />
         }
 
         if(this.state.activepage === "machining"){
-            currentPage = <h3>Machining</h3>
+            currentPage = <Machining />
         }
 
         if(this.state.activepage === "waterjetCuttingAndProfiling"){
-            currentPage = <h3>Water-jet Cutting & Profling</h3>
+            currentPage = <WaterJet />
         }
 
         if(this.state.activepage === "hydraulicsAndPiping"){

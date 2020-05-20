@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import "./services.css"
 export class Fabrication extends Component {
     render() {
         return (
