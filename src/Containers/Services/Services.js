@@ -4,6 +4,7 @@ import Sidebar from '../../Components/Services/Sidebar/Sidebar'
 import Header from '../../Components/Header/Header'
 import AllServices from '../../Components/Services/AllServices/AllServices'
 import AlWelding from '../../Components/Services/IndividualServices/AlWelding'
+import Fabrication from '../../Components/Services/IndividualServices/Fabrication'
 
 
 export class Services extends Component {
@@ -37,7 +38,7 @@ export class Services extends Component {
         }
 
         if(this.state.activepage === "fabrication"){
-            currentPage = <h3>Fabrication</h3>
+            currentPage = <Fabrication />
         }
 
         if(this.state.activepage === "aluminumWelding"){

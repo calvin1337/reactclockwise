@@ -28,7 +28,7 @@ export class About extends Component {
 
             <div>
                  <Header 
-                 headerTitle="About us" 
+                 headerTitle="About Us" 
                  />
                   <Selector activepage={this.state.activepage} currentpage={(testing) => this.pageSelector(testing)} />
                     {currentPage}
