@@ -1,0 +1,44 @@
+.servicesContent .servicesTitle h2{
+    font: 600 28px 'Montserrat', sans-serif;
+    color: #242424;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    letter-spacing: 0.3px;
+    margin: 0;
+}
+.servicesContent h2{
+opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.servicesContent .servicesTitle h2:before {
+    content: "";
+    width: 55px;
+    height: 3px;
+    display: inline-block;
+    background: #222;
+    position: absolute;
+    bottom: 0;
+}
+
+.servicesContent .servicesTitle  {
+    position: relative;
+    padding: 0 0 50px;
+}
+
+.singleServiceImage {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.servicesContent p{
+    color: #898989;
+    margin: 0 0 1.2em!important;
+    padding: 0;
+    font: 400 1em/1.8em "Open Sans", sans-serif;
+    letter-spacing: 0.3px;
+}

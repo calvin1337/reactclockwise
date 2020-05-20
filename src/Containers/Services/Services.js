@@ -3,6 +3,7 @@ import {Col, Row, Container} from "react-bootstrap"
 import Sidebar from '../../Components/Services/Sidebar/Sidebar'
 import Header from '../../Components/Header/Header'
 import AllServices from '../../Components/Services/AllServices/AllServices'
+import AlWelding from '../../Components/Services/IndividualServices/AlWelding'
 
 
 export class Services extends Component {
@@ -17,6 +18,10 @@ export class Services extends Component {
                 console.log(this.state.activepage)
         })
         
+    }
+
+    componentDidUpdate() {
+        window.scrollTo(0, 0);
     }
 
     
@@ -36,7 +41,7 @@ export class Services extends Component {
         }
 
         if(this.state.activepage === "aluminumWelding"){
-            currentPage = <h3>Aluminum Welding</h3>
+            currentPage = <AlWelding />
         }
 
         if(this.state.activepage === "stainlessWelding"){

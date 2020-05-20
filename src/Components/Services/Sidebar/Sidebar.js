@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import "./sidebar.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {faAngleDoubleRight} from "@fortawesome/free-solid-svg-icons";
 
 export class Sidebar extends Component {
     render() {
@@ -55,9 +57,26 @@ export class Sidebar extends Component {
                         <li><a href="/">QSHE</a></li>
                     </ul>
                 </div>
-            </div>
+                    <div className="contactLink">
+                    <   h3>Contact us for help?</h3>
+                        <p>Have a question or a query get in touch!</p>
+                            <p>
+                                <a href="/">
+                                Contact us
+                                <FontAwesomeIcon
+                                 icon={faAngleDoubleRight}  
+                                 style={iconMargin}
+                                />
+                                </a>
+                            </p>
+                    </div>
+             </div>
         )
     } 
+}
+
+const iconMargin = {
+    margin: "0 0 0 10px"
 }
 
 export default Sidebar
