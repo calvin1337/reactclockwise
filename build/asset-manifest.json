@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactclockwise/static/css/main.9e74de62.chunk.css",
-    "main.js": "/reactclockwise/static/js/main.35714a80.chunk.js",
-    "main.js.map": "/reactclockwise/static/js/main.35714a80.chunk.js.map",
+    "main.js": "/reactclockwise/static/js/main.2bbf2d6b.chunk.js",
+    "main.js.map": "/reactclockwise/static/js/main.2bbf2d6b.chunk.js.map",
     "runtime-main.js": "/reactclockwise/static/js/runtime-main.d753df52.js",
     "runtime-main.js.map": "/reactclockwise/static/js/runtime-main.d753df52.js.map",
     "static/css/2.838c63a7.chunk.css": "/reactclockwise/static/css/2.838c63a7.chunk.css",
     "static/js/2.3834a27d.chunk.js": "/reactclockwise/static/js/2.3834a27d.chunk.js",
     "static/js/2.3834a27d.chunk.js.map": "/reactclockwise/static/js/2.3834a27d.chunk.js.map",
     "index.html": "/reactclockwise/index.html",
-    "precache-manifest.4a914aa8fee95a0ab7a4d83750128973.js": "/reactclockwise/precache-manifest.4a914aa8fee95a0ab7a4d83750128973.js",
+    "precache-manifest.b6dd278db46226b3892afe21ed0b6716.js": "/reactclockwise/precache-manifest.b6dd278db46226b3892afe21ed0b6716.js",
     "service-worker.js": "/reactclockwise/service-worker.js",
     "static/css/2.838c63a7.chunk.css.map": "/reactclockwise/static/css/2.838c63a7.chunk.css.map",
     "static/css/main.9e74de62.chunk.css.map": "/reactclockwise/static/css/main.9e74de62.chunk.css.map",
@@ -33,6 +33,6 @@
     "static/css/2.838c63a7.chunk.css",
     "static/js/2.3834a27d.chunk.js",
     "static/css/main.9e74de62.chunk.css",
-    "static/js/main.35714a80.chunk.js"
+    "static/js/main.2bbf2d6b.chunk.js"
   ]
 }
