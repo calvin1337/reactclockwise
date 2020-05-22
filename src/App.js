@@ -12,6 +12,7 @@ import Footer from "./Components/Footer/Footer";
 import ServicesContainer from "./Containers/Services/Services";
 import About from './Containers/About/About';
 import ScrollToTop from './Components/ScrollTop';
+import Projects from './Containers/Projects/Projects';
 
 
 
@@ -41,6 +42,13 @@ export class App extends Component {
       <Route path="/reactclockwise/services" render={props => (
         <div>
           <ServicesContainer />
+          
+        </div>
+        
+      )} />
+      <Route path="/reactclockwise/projects" render={props => (
+        <div>
+          <Projects />
           
         </div>
         
