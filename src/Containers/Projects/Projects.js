@@ -1,15 +1,24 @@
 import React, { Component } from 'react'
 import Header from '../../Components/Header/Header'
-import Selector from '../../Components/Projects/Selector/Selector'
+import ProjectContainer from '../../Components/Projects/ProjectContainer/ProjectContainer'
 
 export class Projects extends Component {
+    state = {
+        
+
+    }
+
+    
     render() {
+
         return (
             <div>
                 <Header 
                 headerTitle="Our Projects"
                 />
-                <Selector />
+
+                <ProjectContainer/>
+
             </div>
         )
     }
