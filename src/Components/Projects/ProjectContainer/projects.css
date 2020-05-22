@@ -3,6 +3,7 @@
     height:0;
     width:0;
     }
+
     .single-project-item {
         position: relative;
         overflow: hidden;
@@ -126,7 +127,7 @@
         width:100%;
     }
     
-    .show{
+    .show .filter-item{
       height:240px;
       width:250px;
       margin: 10px;
