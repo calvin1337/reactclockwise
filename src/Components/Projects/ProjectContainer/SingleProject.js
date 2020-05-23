@@ -7,13 +7,13 @@ export class SingleProject extends Component {
             <div class="filter-item" >
                 <div class="single-project-item">
                     <div class="img-holder">
-                    <img src="https://i.picsum.photos/id/544/200/300.jpg" alt="" />
+                    <img src={this.props.projectImage} alt="Project Image" />
                     <div class="overlay-style-one">
                         <div class="box">
                         <div class="content">
                             <button>View Project</button>
                             <div class="text-holder">
-                            <h4>Lorem</h4>
+                            <h4>{this.props.projectName}</h4>
                             <p>Lorem ipsum dolor sit amet.</p>
                             </div>
                         </div>

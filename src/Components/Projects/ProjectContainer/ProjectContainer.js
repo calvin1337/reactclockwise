@@ -59,41 +59,67 @@ export class ProjectContainer extends Component {
             
             <Selector selected={this.state.Selected} filterSelector={(c) => this.filterSelection(c)} />
 
-            <Container style={{marginTop:"50px"}}>
+            <Container style={{marginTop:"50px", marginBottom:"50px"}}>
                 <Row style={{margin: "auto"}}>
 
                     {/*Row 1*/}
                     <div className="filter welding">
-                    <SingleProject />
+                    <SingleProject 
+                    projectImage="https://web.archive.org/web/20161016114423/http://aluweldltd.co.uk/images/P1040446.JPG"
+                    projectName="TDU Frame"
+                    />
                     </div>
 
                     <div className="filter engineering">
-                    <SingleProject />
+                    <SingleProject
+                     projectImage="https://web.archive.org/web/20161016175139/http://aluweldltd.co.uk/images/PA300187.JPG"
+                     projectName="Debri Cap"
+                     />
                     </div>
 
                     <div className="filter machining">
-                    <SingleProject />
+                    <SingleProject 
+                     projectImage="https://web.archive.org/web/20170103021940/http://aluweldltd.co.uk/images/Tooling%20BaskeT_LARGE1.jpg"
+                     projectName="Tooling Basket"
+                    />
                     </div>
 
                     <div className="filter welding">
-                    <SingleProject />
+                    <SingleProject 
+                     projectImage="https://web.archive.org/web/20170102213454/http://aluweldltd.co.uk/images/HPU%20Skid%20(Medium).JPG"
+                     projectName="HPU Skid"
+                    />
                     </div>
                    {/*Row 2*/}
                    <div className="filter welding">
-                    <SingleProject />
+                    <SingleProject 
+                     projectImage="https://web.archive.org/web/20170103033844/http://aluweldltd.co.uk/images/PA130365.JPG"
+                     projectName="Spacer Frame"
+                    />
                     </div>
 
                     <div className="filter engineering">
-                    <SingleProject />
+                    <SingleProject 
+                     projectImage="https://web.archive.org/web/20170102220447/http://aluweldltd.co.uk/images/Divers%20Skid_large.jpg"
+                     projectName="Divers Skid"
+                    />
                     </div>
 
                     <div className="filter machining">
-                    <SingleProject />
+                    <SingleProject 
+                     projectImage="https://web.archive.org/web/20170103002915/http://aluweldltd.co.uk/images/ROV%20SKID_large.JPG"
+                     projectName="ROV Skid"
+                    />
                     </div>
 
                     <div className="filter welding">
-                    <SingleProject />
+                    <SingleProject 
+                     projectImage="https://web.archive.org/web/20170102233908/http://aluweldltd.co.uk/images/Cable%20Cutter%20Stand%20for%20Oil%20Exhibition_large.jpg"
+                     projectName="Cable Cutter Stand"
+                    />
                     </div>
+
+                    
                    
                 </Row>
             </Container>
