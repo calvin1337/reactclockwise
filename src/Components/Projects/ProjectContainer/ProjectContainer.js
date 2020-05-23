@@ -3,6 +3,17 @@ import {Row, Container} from "react-bootstrap"
 import SingleProject from './SingleProject'
 import Selector from '../Selector/Selector'
 
+import cablecutter from "../../../images/ProjectImages/cablecutter.jpg";
+import debricap from "../../../images/ProjectImages/debricap.jpg"
+import diverskid from "../../../images/ProjectImages/diverskid.jpg"
+import hpuskid from "../../../images/ProjectImages/hpuskid.jpg"
+import rovskid from "../../../images/ProjectImages/rovskid.jpg"
+import spacerframe from "../../../images/ProjectImages/spacerframe.jpg"
+import tduframe from "../../../images/ProjectImages/TDUFrame.jpg"
+import toolingbasket from "../../../images/ProjectImages/toolingbasket.jpg"
+
+
+
 export class ProjectContainer extends Component {
 
     state = {
@@ -65,56 +76,56 @@ export class ProjectContainer extends Component {
                     {/*Row 1*/}
                     <div className="filter welding">
                     <SingleProject 
-                    projectImage="https://web.archive.org/web/20161016114423/http://aluweldltd.co.uk/images/P1040446.JPG"
+                    projectImage={tduframe}
                     projectName="TDU Frame"
                     />
                     </div>
 
                     <div className="filter engineering">
                     <SingleProject
-                     projectImage="https://web.archive.org/web/20161016175139/http://aluweldltd.co.uk/images/PA300187.JPG"
+                     projectImage={debricap}
                      projectName="Debri Cap"
                      />
                     </div>
 
                     <div className="filter machining">
                     <SingleProject 
-                     projectImage="https://web.archive.org/web/20170103021940/http://aluweldltd.co.uk/images/Tooling%20BaskeT_LARGE1.jpg"
+                     projectImage={toolingbasket}
                      projectName="Tooling Basket"
                     />
                     </div>
 
                     <div className="filter welding">
                     <SingleProject 
-                     projectImage="https://web.archive.org/web/20170102213454/http://aluweldltd.co.uk/images/HPU%20Skid%20(Medium).JPG"
+                     projectImage={hpuskid}
                      projectName="HPU Skid"
                     />
                     </div>
                    {/*Row 2*/}
                    <div className="filter welding">
                     <SingleProject 
-                     projectImage="https://web.archive.org/web/20170103033844/http://aluweldltd.co.uk/images/PA130365.JPG"
+                     projectImage={spacerframe}
                      projectName="Spacer Frame"
                     />
                     </div>
 
                     <div className="filter engineering">
                     <SingleProject 
-                     projectImage="https://web.archive.org/web/20170102220447/http://aluweldltd.co.uk/images/Divers%20Skid_large.jpg"
+                     projectImage={diverskid}
                      projectName="Divers Skid"
                     />
                     </div>
 
                     <div className="filter machining">
                     <SingleProject 
-                     projectImage="https://web.archive.org/web/20170103002915/http://aluweldltd.co.uk/images/ROV%20SKID_large.JPG"
+                     projectImage={rovskid}
                      projectName="ROV Skid"
                     />
                     </div>
 
                     <div className="filter welding">
                     <SingleProject 
-                     projectImage="https://web.archive.org/web/20170102233908/http://aluweldltd.co.uk/images/Cable%20Cutter%20Stand%20for%20Oil%20Exhibition_large.jpg"
+                     projectImage={cablecutter}
                      projectName="Cable Cutter Stand"
                     />
                     </div>
