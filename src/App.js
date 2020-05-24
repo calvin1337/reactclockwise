@@ -13,6 +13,7 @@ import ServicesContainer from "./Containers/Services/Services";
 import About from './Containers/About/About';
 import ScrollToTop from './Components/ScrollTop';
 import Projects from './Containers/Projects/Projects';
+import ProjectDetails from './Components/Projects/ProjectContainer/ProjectDetails/ProjectDetails';
 
 
 
@@ -46,13 +47,15 @@ export class App extends Component {
         </div>
         
       )} />
-      <Route path="/reactclockwise/projects" render={props => (
+      <Route path="/reactclockwise/projects" exact render={props => (
         <div>
           <Projects />
           
         </div>
         
       )} />
+      <Route path="/reactclockwise/projects/:id" component={ProjectDetails} />
+      
       </Router>
       <Footer />
     </div>

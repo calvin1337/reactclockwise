@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import {Row, Container} from "react-bootstrap"
 import SingleProject from './SingleProject'
 import Selector from '../Selector/Selector'
+import ProjectDetails from './ProjectDetails/ProjectDetails';
+import { withRouter } from 'react-router'
+import { Route } from 'react-router-dom';
+
 
 import cablecutter from "../../../images/ProjectImages/cablecutter.jpg";
 import debricap from "../../../images/ProjectImages/debricap.jpg"
@@ -11,6 +15,7 @@ import rovskid from "../../../images/ProjectImages/rovskid.jpg"
 import spacerframe from "../../../images/ProjectImages/spacerframe.jpg"
 import tduframe from "../../../images/ProjectImages/TDUFrame.jpg"
 import toolingbasket from "../../../images/ProjectImages/toolingbasket.jpg"
+
 
 
 
@@ -62,6 +67,12 @@ export class ProjectContainer extends Component {
      componentDidMount(){
          this.filterSelection("all")
      }
+
+     postSelectedHandler = (id) => {
+        //  this.setState({selectedPostId: id});
+    
+        this.props.history.push("/reactclockwise/projects/" + id);
+      }
       
     render() {
         return (
@@ -78,13 +89,20 @@ export class ProjectContainer extends Component {
                     <SingleProject 
                     projectImage={tduframe}
                     projectName="TDU Frame"
+                    id="1"
+                    postSelectedHandler={(id) => this.postSelectedHandler(id)}
                     />
+                    
+                    
+
                     </div>
 
                     <div className="filter engineering">
                     <SingleProject
                      projectImage={debricap}
                      projectName="Debri Cap"
+                     id="2"
+                     postSelectedHandler={(id) => this.postSelectedHandler(id)}
                      />
                     </div>
 
@@ -92,6 +110,8 @@ export class ProjectContainer extends Component {
                     <SingleProject 
                      projectImage={toolingbasket}
                      projectName="Tooling Basket"
+                     id="3"
+                     postSelectedHandler={(id) => this.postSelectedHandler(id)}
                     />
                     </div>
 
@@ -99,6 +119,8 @@ export class ProjectContainer extends Component {
                     <SingleProject 
                      projectImage={hpuskid}
                      projectName="HPU Skid"
+                     id="4"
+                     postSelectedHandler={(id) => this.postSelectedHandler(id)}
                     />
                     </div>
                    {/*Row 2*/}
@@ -106,6 +128,8 @@ export class ProjectContainer extends Component {
                     <SingleProject 
                      projectImage={spacerframe}
                      projectName="Spacer Frame"
+                     id="5"
+                     postSelectedHandler={(id) => this.postSelectedHandler(id)}
                     />
                     </div>
 
@@ -113,6 +137,8 @@ export class ProjectContainer extends Component {
                     <SingleProject 
                      projectImage={diverskid}
                      projectName="Divers Skid"
+                     id="6"
+                     postSelectedHandler={(id) => this.postSelectedHandler(id)}
                     />
                     </div>
 
@@ -120,6 +146,8 @@ export class ProjectContainer extends Component {
                     <SingleProject 
                      projectImage={rovskid}
                      projectName="ROV Skid"
+                     id="7"
+                     postSelectedHandler={(id) => this.postSelectedHandler(id)}
                     />
                     </div>
 
@@ -127,6 +155,8 @@ export class ProjectContainer extends Component {
                     <SingleProject 
                      projectImage={cablecutter}
                      projectName="Cable Cutter Stand"
+                     id="8"
+                     postSelectedHandler={(id) => this.postSelectedHandler(id)}
                     />
                     </div>
 
@@ -134,9 +164,11 @@ export class ProjectContainer extends Component {
                    
                 </Row>
             </Container>
+          
+           
             </div>
         )
     }
 }
 
-export default ProjectContainer
+export default withRouter(ProjectContainer);
