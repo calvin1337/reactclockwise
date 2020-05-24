@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/reactclockwise/static/css/main.f90b6120.chunk.css",
-    "main.js": "/reactclockwise/static/js/main.c4bed930.chunk.js",
-    "main.js.map": "/reactclockwise/static/js/main.c4bed930.chunk.js.map",
+    "main.css": "/reactclockwise/static/css/main.fb7b1d0f.chunk.css",
+    "main.js": "/reactclockwise/static/js/main.28ac09b9.chunk.js",
+    "main.js.map": "/reactclockwise/static/js/main.28ac09b9.chunk.js.map",
     "runtime-main.js": "/reactclockwise/static/js/runtime-main.d753df52.js",
     "runtime-main.js.map": "/reactclockwise/static/js/runtime-main.d753df52.js.map",
     "static/css/2.838c63a7.chunk.css": "/reactclockwise/static/css/2.838c63a7.chunk.css",
-    "static/js/2.b987bd59.chunk.js": "/reactclockwise/static/js/2.b987bd59.chunk.js",
-    "static/js/2.b987bd59.chunk.js.map": "/reactclockwise/static/js/2.b987bd59.chunk.js.map",
+    "static/js/2.5cdbbf2b.chunk.js": "/reactclockwise/static/js/2.5cdbbf2b.chunk.js",
+    "static/js/2.5cdbbf2b.chunk.js.map": "/reactclockwise/static/js/2.5cdbbf2b.chunk.js.map",
     "index.html": "/reactclockwise/index.html",
-    "precache-manifest.2ff02d771108cb5b6f528b561a9f33f9.js": "/reactclockwise/precache-manifest.2ff02d771108cb5b6f528b561a9f33f9.js",
+    "precache-manifest.a94bd414b65b4a91377ff63344867e18.js": "/reactclockwise/precache-manifest.a94bd414b65b4a91377ff63344867e18.js",
     "service-worker.js": "/reactclockwise/service-worker.js",
     "static/css/2.838c63a7.chunk.css.map": "/reactclockwise/static/css/2.838c63a7.chunk.css.map",
-    "static/css/main.f90b6120.chunk.css.map": "/reactclockwise/static/css/main.f90b6120.chunk.css.map",
-    "static/js/2.b987bd59.chunk.js.LICENSE.txt": "/reactclockwise/static/js/2.b987bd59.chunk.js.LICENSE.txt",
+    "static/css/main.fb7b1d0f.chunk.css.map": "/reactclockwise/static/css/main.fb7b1d0f.chunk.css.map",
+    "static/js/2.5cdbbf2b.chunk.js.LICENSE.txt": "/reactclockwise/static/js/2.5cdbbf2b.chunk.js.LICENSE.txt",
     "static/media/TDUFrame.jpg": "/reactclockwise/static/media/TDUFrame.4244b4e8.jpg",
     "static/media/aluminumwelding.jpg": "/reactclockwise/static/media/aluminumwelding.9d777483.jpg",
     "static/media/assembly.jpg": "/reactclockwise/static/media/assembly.930bd46e.jpg",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.d753df52.js",
     "static/css/2.838c63a7.chunk.css",
-    "static/js/2.b987bd59.chunk.js",
-    "static/css/main.f90b6120.chunk.css",
-    "static/js/main.c4bed930.chunk.js"
+    "static/js/2.5cdbbf2b.chunk.js",
+    "static/css/main.fb7b1d0f.chunk.css",
+    "static/js/main.28ac09b9.chunk.js"
   ]
 }
